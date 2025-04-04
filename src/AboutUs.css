@@ -1,0 +1,66 @@
+/* About Us Section Styling */
+.about-us-section {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-us-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Individual Card */
+  .about-card {
+    background-color: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2a0e3f;
+
+  }
+  
+  .about-card p {
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: bold;
+    margin: 10px 0 15px;
+  }
+  
+  /* Learn More Link */
+  .learn-more-link {
+    color: #007bff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hover Effect */
+  .about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
